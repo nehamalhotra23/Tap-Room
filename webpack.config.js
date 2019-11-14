@@ -40,7 +40,19 @@ module.exports = {
           emitWarning: true,
           configFile: "./.eslintrc.json"
         }
+
       },
+      {
+        test: /\.(png|gif|jp(e*)g|svg)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 8000,
+            name: 'images/[hash]-[name].[ext]'
+          }
+        }
+      },
+      
       {
         test: /\.jsx?$/,
         loader: "babel-loader",
@@ -64,7 +76,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'React Help Queue',
+      title: 'square-space',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]

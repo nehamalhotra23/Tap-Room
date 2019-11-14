@@ -2,20 +2,32 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-function Alien(props){
-    return(
+function Alien(props) {
+    var imageSize = {
+        height: "400px",
+        width: "400px",
+    }
+   
+    return (
         <div>
-            <p>{props.name}</p>
-            <p>{props.bio}</p>
-            <img src={props.photo}/>
+            <div className="card" >
+                <img style={imageSize} src={props.photo} src={props.photo} className="card-img-top" ></img>
+                <div className="card-body">
+                <p className="card-text"> <p>{props.name}</p>
+                <p>{props.bio}</p></p>
+               
+                </div>
+            </div>
         </div>
+        
     );
 }
 
- Alien.propTypes = {
+Alien.propTypes = {
     name: PropTypes.string,
-    bio: PropTypes.string, 
+    bio: PropTypes.string,
     photo: PropTypes.string,
- };
+};
 
- export default Alien;
+export default Alien;
+

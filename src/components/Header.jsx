@@ -22,7 +22,7 @@ function Header() {
   top:"5%",
   left: "40%",
 
-  color: "white",
+  color: "hsla(0, 100%, 30%, 0.8",
   }
   return (
     <div>

@@ -7,18 +7,25 @@ function Alien(props) {
         height: "400px",
         width: "400px",
     }
+    var card = {
+     marginLeft: "400px",
+    }
+    var body = {
+        backgroundColor: "brown",
+    }
+
    
     return (
-        <div>
-            <div className="card" >
+      
+         <div className="card" style={card}  style={body}>
                 <img style={imageSize} src={props.photo} src={props.photo} className="card-img-top" ></img>
                 <div className="card-body">
-                <p className="card-text"> <p>{props.name}</p>
-                <p>{props.bio}</p></p>
+                <p className="card-text"> <p>Name: {props.name}</p>
+                <p>Bio: {props.bio}</p></p>
                
                 </div>
             </div>
-        </div>
+      
         
     );
 }

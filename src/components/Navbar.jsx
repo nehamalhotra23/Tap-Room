@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { brotliDecompress } from 'zlib';
 
 function Navbar() {
 
@@ -10,6 +11,7 @@ function Navbar() {
         textAlign: "center",
         padding: "14px",
         textDecoration: "none",
+        fontWeight: "bold",
     }
     return (
         <div >

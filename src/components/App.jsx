@@ -11,9 +11,7 @@ function App() {
   return (
     <div>
        <Switch>
-        
-       <div ><Route exact path="/" component={Header} /></div>
-       
+        <div ><Route exact path="/" component={Header}/></div>
         <div ><Route exact path="/KombuchaList" component={KombuchaList} /></div>
         
       </Switch>

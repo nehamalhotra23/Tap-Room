@@ -1,5 +1,7 @@
 import React from "react";
-import Flavours from "./Flavours";
+import Gt from "./Gt";
+import Synergy from "./Synergy";
+import NewKombucha from "./NewKombucha";
 import { Switch, Route } from 'react-router-dom';
 import MainPage from "./MainPage";
 
@@ -12,9 +14,10 @@ function App() {
     <div>
        <Switch>
         <Route exact path="/" component={MainPage} />
-        <Route  path="/flavours" component={Flavours}/>
-        
-      </Switch>
+        <Route  path="/Gt" component={Gt}/>
+       
+        <Route path="/NewKombucha" component={NewKombucha} />
+        </Switch>
        </div>
   );
 }

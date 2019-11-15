@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Navbar() {
      var navigation = {
       paddingTop: "30px",
       paddingBottom: "30px",
@@ -75,8 +75,9 @@ function Header() {
           <nav>
             <div style={navDiv}>
               <Link to="/" style={logo}>Kombucha </Link>
-              <Link to="/flavours" style={modelX}>Flavours</Link>
-              <Link to="/brands" style={center}>Brands</Link>
+              <Link to="/Gt" style={modelX}>GT's</Link>
+              <Link to="/Synergy" style={center}>Synergy</Link>
+              <Link to="/NewKombucha" style={center}>Add new Kombucha</Link>
             </div>
           </nav>
         </div>
@@ -84,5 +85,5 @@ function Header() {
 
     );
   }
-  export default Header;
+  export default Navbar;
   

@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
+import Navbar from './Navbar';
 import KombuchaList from './KombuchaList';
 
-function MainPage() {
+function Gt() {
     var space = {
       margin: "140px",
     }
@@ -11,10 +11,10 @@ function MainPage() {
     }
     return (
         <div style={cover}>
-            <Header />
+            <Navbar/>
         <div style={space}><KombuchaList /></div>
         </div>
     );
 }
 
-export default MainPage;
+export default Gt;

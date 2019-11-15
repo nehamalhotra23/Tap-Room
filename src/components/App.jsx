@@ -1,22 +1,22 @@
 import React from "react";
 import Gt from "./Gt";
-import MainPageRemedy from "./MainPageRemedy";
+import Remedy from "./Remedy";
 import NewKombucha from "./NewKombucha";
 import { Switch, Route } from 'react-router-dom';
 import MainPage from "./MainPage";
 
 
 function App() {
-  
+
   return (
     <div>
-       <Switch>
+      <Switch>
         <Route exact path="/" component={MainPage} />
-        <Route  path="/Gt" component={Gt}/>
-        <Route path="/MainPageRemedy" component={MainPageRemedy} />
+        <Route path="/Gt" component={Gt} />
+        <Route path="/Remedy" component={Remedy} />
         <Route path="/NewKombucha" component={NewKombucha} />
-        </Switch>
-       </div>
+      </Switch>
+    </div>
   );
 }
 

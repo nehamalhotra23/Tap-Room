@@ -3,33 +3,44 @@ import Kombucha from './Kombucha';
 import ginger from '../Assets/Img/ginger.png';
 import Original from '../Assets/Img/Original.png';
 import trilogy from '../Assets/Img/trilogy.png';
+import watermelon from '../Assets/Img/watermelon.png';
 
-var MasterKombuchaList = [
+var MasterGtList = [
     {
-    name: "Kombucha",
-    flavour: "Gingerade",
-    brand: "GT's",
-    photo: ginger
-},
+        name: "Kombucha",
+        flavour: "Gingerade",
+        brand: "GT's",
+        price: "$5",
+        photo: ginger
+    },
     {
         name: "Kombucha",
         flavour: "Original",
         brand: "GT's",
+        price: "$5",
         photo: Original
     },
-     {
+    {
         name: "Kombucha",
         flavour: "trilogy",
-         brand: "GT's",
+        brand: "GT's",
+        price: "$5",
         photo: trilogy
+    },
+    {
+        name: "Kombucha",
+        flavour: "Watermelon",
+        brand: "GT's",
+        price: "$5",
+        photo: watermelon
     }
 
-]
-function KombuchaList() {
 
+]
+function GtList() {
     return (
         <div>
-            {MasterKombuchaList.map((kombucha, index) =>
+            {MasterGtList.map((kombucha, index) =>
                 <Kombucha name={kombucha.name}
                     price={kombucha.price}
                     flavour={kombucha.flavour}
@@ -41,4 +52,4 @@ function KombuchaList() {
     );
 }
 
-export default KombuchaList;
+export default GtList;

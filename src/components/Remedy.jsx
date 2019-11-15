@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import RemedyList from './RemedyList';
 
-function MainPageRemedy() {
+function Remedy() {
     var space = {
         margin: "140px",
     }
@@ -18,4 +18,4 @@ function MainPageRemedy() {
     );
 }
 
-export default MainPageRemedy;
+export default Remedy;

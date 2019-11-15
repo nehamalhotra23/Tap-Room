@@ -52,7 +52,7 @@ function Navbar() {
           <div style={navDiv}>
             <Link to="/" style={logo}>Kombucha </Link>
             <Link to="/Gt" style={modelX}>GT's</Link>
-            <Link to="/MainPageRemedy" style={center}>Remedy</Link>
+            <Link to="/Remedy" style={center}>Remedy</Link>
             <Link to="/NewKombucha" style={center}>Add new Kombucha</Link>
           </div>
         </nav>

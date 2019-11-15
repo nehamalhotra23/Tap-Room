@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import KombuchaList from './KombuchaList';
+import GtList from './GtList';
 
 function Gt() {
     var space = {
@@ -13,7 +13,7 @@ function Gt() {
     return (
         <div style={cover}>
             <Navbar/>
-        <div style={space}><KombuchaList /></div>
+        <div style={space}><GtList /></div>
         </div>
     );
 }

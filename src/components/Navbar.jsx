@@ -65,7 +65,7 @@ function Navbar() {
             <Link to="/Gt" style={modelX}>GT's</Link>
             <Link to="/Remedy" style={center}>Remedy</Link>
             <Link to="/NewKombucha" style={center}>Add new Kombucha</Link>
-            <a style={navbarRight} href="SignIn">SIGN IN</a>
+            <Link to="/SignIn" style={navbarRight} >SIGN IN</Link>
           </div>
         </nav>
       </div>

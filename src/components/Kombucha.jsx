@@ -12,6 +12,7 @@ function Kombucha(props) {
         webkitBoxShadow:" 4px 5px 5px - 3px #000000",
         boxShadow: "4px 5px 5px - 3px #000000",
         overflow: "hidden",
+        padding: "10px",
     }
     var image = {
         margin: "5 %",

@@ -3,6 +3,7 @@ import cover from '../Assets/Img/cover.png';
 function Home() {
     var image = {
      width: "1300px",
+     height: "700px",
     }
     return (
         <div>

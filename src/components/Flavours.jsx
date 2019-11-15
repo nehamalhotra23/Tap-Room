@@ -12,8 +12,7 @@ function MainPage() {
     return (
         <div style={cover}>
             <Header />
-        
-            <div style={space}><KombuchaList /></div>
+        <div style={space}><KombuchaList /></div>
         </div>
     );
 }

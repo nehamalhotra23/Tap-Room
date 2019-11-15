@@ -1,6 +1,6 @@
 import React from "react";
-import Home from './Home';
-import AlienList from "./AlienList";
+import Header from './Header';
+import KombuchaList from "./KombuchaList";
 import { Switch, Route } from 'react-router-dom';
 
 
@@ -10,12 +10,13 @@ function App() {
   }
   return (
     <div style={color}>
+     
        <Switch>
-       <div className="row">
-       <div className="col-md-12"><Route exact path="/" component={Home} /></div>
+        
+       <div ><Route exact path="/" component={Header} /></div>
        
-        <div className="col-md-7"><Route exact path="/AlienList" component={AlienList} /></div>
-        </div>
+        <div ><Route exact path="/KombuchaList" component={KombuchaList} /></div>
+        
       </Switch>
        </div>
   );

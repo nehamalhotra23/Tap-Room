@@ -4,29 +4,28 @@ import PropTypes from 'prop-types';
 
 function Alien(props) {
     var imageSize = {
-        height: "400px",
-        width: "400px",
-    }
-    var card = {
-     marginLeft: "400px",
+        height: "200px",
+        width: "200px",
     }
     var body = {
-        backgroundColor: "brown",
+        marginLeft: "300px",
+        marginRight: "160px",
     }
 
-   
+
     return (
-      
-         <div className="card" style={card}  style={body}>
+        <div>
+            <div className="card" style={body}>
                 <img style={imageSize} src={props.photo} src={props.photo} className="card-img-top" ></img>
                 <div className="card-body">
-                <p className="card-text"> <p>Name: {props.name}</p>
-                <p>Bio: {props.bio}</p></p>
-               
+                    <p className="card-text"> <p>Name: {props.name}</p>
+                        <p>Bio: {props.bio}</p></p>
+
                 </div>
             </div>
-      
-        
+        </div>
+
+
     );
 }
 

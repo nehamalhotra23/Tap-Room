@@ -12,6 +12,8 @@ function Navbar() {
         padding: "14px",
         textDecoration: "none",
         fontWeight: "bold",
+        fontSize: "40px",
+        color: "black",
     }
     return (
         <div >

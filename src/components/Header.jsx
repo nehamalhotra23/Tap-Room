@@ -15,14 +15,17 @@ function Header() {
     left: "0",
 
   }
+ 
 
   var heroText = {
   textAlign: "center",
   position: "absolute",
   top:"5%",
   left: "40%",
-
-  color: "hsla(0, 100%, 30%, 0.8",
+  opacity: "0.6",
+  color: "white",
+  fontSize: "80px",
+ 
   }
   return (
     <div>

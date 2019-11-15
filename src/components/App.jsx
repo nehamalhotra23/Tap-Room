@@ -5,16 +5,19 @@ import { Switch, Route } from 'react-router-dom';
 
 
 function App() {
-  
+  var color = {
+    backgroundColor: "grey",
+  }
   return (
-    <div>
-
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/AlienList" component={AlienList} />
+    <div style={color}>
+       <Switch>
+       <div className="row">
+       <div className="col-md-12"><Route exact path="/" component={Home} /></div>
+       
+        <div className="col-md-7"><Route exact path="/AlienList" component={AlienList} /></div>
+        </div>
       </Switch>
-
-    </div>
+       </div>
   );
 }
 

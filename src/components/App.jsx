@@ -1,7 +1,8 @@
 import React from "react";
-import Header from './Header';
-import KombuchaList from "./KombuchaList";
+// import MainPage from './MainPage';
+import Flavours from "./Flavours";
 import { Switch, Route } from 'react-router-dom';
+import MainPage from "./MainPage";
 
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
   return (
     <div>
        <Switch>
-        <Route exact path="/" component={Header}/>
-        <Route  path="/KombuchaList" component={KombuchaList}/>
+        <Route exact path="/" component={MainPage}/>
+        <Route  path="/flavours" component={Flavours}/>
         
       </Switch>
        </div>

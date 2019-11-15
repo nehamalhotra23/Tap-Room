@@ -75,7 +75,7 @@ function Header() {
           <nav>
             <div style={navDiv}>
               <Link to="/" style={logo}>Kombucha </Link>
-              <Link to="/KombuchaList" style={modelX}>Flavours</Link>
+              <Link to="/flavours" style={modelX}>Flavours</Link>
               <Link to="/brands" style={center}>Brands</Link>
             </div>
           </nav>

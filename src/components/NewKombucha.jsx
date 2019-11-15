@@ -12,6 +12,7 @@ function NewKombucha() {
     var background = {
         backgroundColor: "#ffae42",
         color: "brown",
+        marginTop: "300px",
     }
     var form = {
         marginTop: "30px",

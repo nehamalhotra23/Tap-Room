@@ -25,8 +25,8 @@ function SignIn() {
             </div>
             <div style={form} className="form-group col-md-6">
                 <h1> Employee Login:</h1>
-                <input type="text" placeholder="@UserName"className="form-control" /> <br/>
-                <input placeholder="Password" type="text" className="form-control" /><br/>
+                <input type="text" placeholder="@UserName" className="form-control" /> <br />
+                <input placeholder="Password" type="text" className="form-control" /><br />
                 <button type="submit" className="btn btn-secondary">SignIn</button><hr />
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand" href="#">

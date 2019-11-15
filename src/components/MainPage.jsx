@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 function MainPage() {
     return (
         <div>
-            <Navbar />
+            <Navbar/>
             <Home />
         </div>
     );

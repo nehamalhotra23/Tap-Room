@@ -24,18 +24,19 @@ function Kombucha(props) {
        boxShadow: "0px 0px 6px - 2px #000000",
     }
     return (
-        <div>
-            <div class="card" style={card}>
-            <img style={image} src={props.photo} class="card-img-top" />
-            <div class="card-body">
+        
+            <div className="row" style={card}>
+             <div className="col-md-12">  
+            <img style={image} src={props.photo} />
+            <div>
             <p>Name: {props.name}</p>
             <p>Price: {props.price}</p>
             <p>Brand: {props.brand}</p>
             <p>description: {props.flavour}</p>
-                </div>
+            </div> 
+            </div>
             </div>
 
-        </div>
 
     );
 }

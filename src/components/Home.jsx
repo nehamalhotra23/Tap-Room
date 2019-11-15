@@ -1,15 +1,16 @@
 import React from "react";
 import cover from '../Assets/Img/cover.png';
 function Home() {
-    var image = {
-     backgroundColor: "brown",
-    }
-    return (
-      <div style={image}>
-          <img src={cover}/>  
-        </div>
-
-    );
+  var back = {
+    backgroundImage: `url(${cover})`,
+    height: '1000px',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover'
+  }
+  return (
+    <div style={back}></div>
+  );
 }
 export default Home;
 

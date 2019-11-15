@@ -2,12 +2,11 @@ import React from "react";
 import cover from '../Assets/Img/cover.png';
 function Home() {
     var image = {
-     width: "1300px",
-     height: "700px",
+     backgroundColor: "brown",
     }
     return (
-        <div>
-          <img style={image} src={cover}/>  
+      <div style={image}>
+          <img src={cover}/>  
         </div>
 
     );

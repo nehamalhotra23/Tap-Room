@@ -3,7 +3,7 @@ import newkombucha from '../Assets/Img/newkombucha.jpg';
 
 function NewKombucha() {
     var image = {
-        height: "500px",
+        height: "600px",
         width: "600px",
         marginTop: "30px",
         border: "solid grey",
@@ -13,23 +13,22 @@ function NewKombucha() {
         backgroundColor: "#ffae42",
         color: "brown",
     }
+    var form = {
+        marginTop: "30px",
+    }
     return (
 
         <div style={background} className="row">
             <div className="col-md-6">
                 <img style={image} src={newkombucha} />
             </div>
-            <div className="form-group col-md-6">
-                <h1>Add a new Kombucha</h1>
-                <label for="inputCity">Name:</label>
-                <input type="text" className="form-control" />
-                <label for="inputCity">Price:</label>
-                <input type="text" className="form-control" />
-                <label for="inputCity">Flavour:</label>
-                <input type="text" className="form-control" />
-                <label for="inputState">Brand:</label>
+            <div style={form} className="form-group col-md-6">
+                <h1>Add a new Kombucha: </h1><br />
+                <input type="text" placeholder="Name" className="form-control" /><br />
+                <input type="text" placeholder="Flavour" className="form-control" /><br />
+                <input type="text" placeholder="Price" className="form-control" /><br />
                 <select className="form-control">
-                    <option selected>Choose...</option>
+                    <option selected>Brand...</option>
                     <option>...</option>
                 </select><br />
                 <button type="submit" className="btn btn-secondary">Add</button><hr />
@@ -39,7 +38,7 @@ function NewKombucha() {
                     </a>
                 </nav>
             </div>
-            </div>
+        </div>
     );
 }
 

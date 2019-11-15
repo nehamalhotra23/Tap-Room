@@ -7,9 +7,10 @@ import { Switch, Route } from 'react-router-dom';
 import MainPage from "./MainPage";
 
 function App() {
+ 
 
   return (
-    <div>
+    <div >
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route path="/Gt" component={Gt} />

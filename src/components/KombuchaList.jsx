@@ -1,13 +1,18 @@
 import React from 'react';
 import Kombucha from './Kombucha';
-import ginger from '../Assets/Img/ginger.jpg';
+import KG from '../Assets/Img/KG.jpeg';
 
 var MasterKombuchaList = [
     {
     name: "Kombucha",
     flavour: "Gingerade",
-    photo: ginger
-}
+    photo: KG
+},
+    {
+        name: "Kombucha",
+        flavour: "Gingerade",
+        photo: KG
+    }
 
 ]
 function KombuchaList() {

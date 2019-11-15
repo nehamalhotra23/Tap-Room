@@ -5,7 +5,6 @@ import NewKombucha from "./NewKombucha";
 import { Switch, Route } from 'react-router-dom';
 import MainPage from "./MainPage";
 
-
 function App() {
 
   return (
@@ -19,5 +18,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

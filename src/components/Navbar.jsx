@@ -19,6 +19,17 @@ function Navbar() {
     textDecoration: "none",
     color: "#fff"
   };
+  var navbarRight = {
+    float: "right",
+    textDecoration: "none",
+    padding: "10px",
+    color: "#fff",
+    fontFamily: "Arial",
+    fontWeight: "900",
+    '&:hover': {
+      textDecoration: "underline"
+    }
+  };
 
   var center = {
     textDecoration: "none",
@@ -54,6 +65,7 @@ function Navbar() {
             <Link to="/Gt" style={modelX}>GT's</Link>
             <Link to="/Remedy" style={center}>Remedy</Link>
             <Link to="/NewKombucha" style={center}>Add new Kombucha</Link>
+            <a style={navbarRight} href="SignIn">SIGN IN</a>
           </div>
         </nav>
       </div>

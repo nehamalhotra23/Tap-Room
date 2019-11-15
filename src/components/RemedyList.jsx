@@ -37,7 +37,6 @@ var MasterRemedyList = [
 
 ]
 function RemedyList() {
-
     return (
         <div>
             {MasterRemedyList.map((Remedy, index) =>

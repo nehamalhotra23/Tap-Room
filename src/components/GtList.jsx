@@ -34,8 +34,6 @@ var MasterGtList = [
         price: "$5",
         photo: watermelon
     }
-
-
 ]
 function GtList() {
     return (
@@ -51,5 +49,4 @@ function GtList() {
         </div>
     );
 }
-
 export default GtList;

@@ -12,7 +12,7 @@ function Gt() {
     }
     return (
         <div style={cover}>
-            <Navbar/>
+        <Navbar/>
         <div style={space}><GtList /></div>
         </div>
     );

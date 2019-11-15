@@ -9,8 +9,7 @@ function App() {
     backgroundColor: "grey",
   }
   return (
-    <div style={color}>
-     
+    <div>
        <Switch>
         
        <div ><Route exact path="/" component={Header} /></div>

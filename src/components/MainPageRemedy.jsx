@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './Navbar';
-import KombuchaList from './KombuchaList';
+import RemedyList from './RemedyList';
 
-function Gt() {
+function MainPageRemedy() {
     var space = {
-      margin: "140px",
+        margin: "140px",
     }
     var cover = {
         backgroundColor: "#ffae42",
@@ -12,10 +12,10 @@ function Gt() {
     }
     return (
         <div style={cover}>
-            <Navbar/>
-        <div style={space}><KombuchaList /></div>
+            <Navbar />
+            <div style={space}><RemedyList /></div>
         </div>
     );
 }
 
-export default Gt;
+export default MainPageRemedy;

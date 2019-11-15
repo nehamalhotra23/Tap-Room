@@ -1,17 +1,27 @@
 import React from 'react';
 import Kombucha from './Kombucha';
-import KG from '../Assets/Img/KG.jpeg';
+import ginger from '../Assets/Img/ginger.png';
+import Original from '../Assets/Img/Original.png';
+import trilogy from '../Assets/Img/trilogy.png';
 
 var MasterKombuchaList = [
     {
     name: "Kombucha",
     flavour: "Gingerade",
-    photo: KG
+    brand: "GT's",
+    photo: ginger
 },
     {
         name: "Kombucha",
-        flavour: "Gingerade",
-        photo: KG
+        flavour: "Original",
+        brand: "GT's",
+        photo: Original
+    },
+     {
+        name: "Kombucha",
+        flavour: "trilogy",
+         brand: "GT's",
+        photo: trilogy
     }
 
 ]
@@ -23,6 +33,7 @@ function KombuchaList() {
                 <Kombucha name={kombucha.name}
                     price={kombucha.price}
                     flavour={kombucha.flavour}
+                    brand={kombucha.brand}
                     photo={kombucha.photo}
                     key={index} />
             )}

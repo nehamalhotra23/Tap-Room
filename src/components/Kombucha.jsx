@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 function Kombucha(props) {
     var card = {
+        margin: "20px",
         width: "300px",
         border: "solid",
         borderRadius: "0px",

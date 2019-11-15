@@ -66,6 +66,7 @@ function Navbar() {
             <Link to="/Remedy" style={center}>Remedy</Link>
             <Link to="/NewKombucha" style={center}>Add new Kombucha</Link>
             <Link to="/SignIn" style={navbarRight} >SIGN IN</Link>
+            <Link to="/NewEmployee" style={navbarRight} >SIGN UP</Link>
           </div>
         </nav>
       </div>

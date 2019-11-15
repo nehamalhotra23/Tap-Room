@@ -1,33 +1,37 @@
 import React from 'react';
+import newkombucha from '../Assets/Img/newkombucha.jpg';
 
 function NewKombucha() {
-    var main = {
-        marginLeft: "400px",
-        marginTop: "50px",
+    var image = {
+       height: "500px",
+       width: "600px",
+       marginTop: "30px",
     }
     return (
-        <div style={main}>
-            <h1>Add a new Kombucha</h1>
-            <div class="form-row">
+       
+            <div className="row">
+                <div className="col-md-6">
+                 <img style={image} src={newkombucha} />
+                </div>
                 <div className="form-group col-md-6">
+            <h1>Add a new Kombucha</h1>
                     <label for="inputCity">Name</label>
                     <input type="text" className="form-control" />
                     <label for="inputCity">Price</label>
                     <input type="text" className="form-control" />
                     <label for="inputCity">Flavour</label>
                     <input type="text" className="form-control" />
-                </div>
-                <div className="form-group col-md-4">
-                    <label for="inputState">brand</label>
+            
+                    <label for="inputState">Brand</label>
                     <select className="form-control">
                         <option selected>Choose...</option>
                         <option>...</option>
-                    </select>
+                    </select><br/>
+                <button type="submit" className="btn btn-primary">Add</button>
                 </div>
 
-                <button type="submit" className="btn btn-primary">Add</button>
             </div>
-        </div>
+        
     );
 }
 

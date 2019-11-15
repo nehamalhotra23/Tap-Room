@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
   var navigation = {
-    paddingTop: "30px",
-    paddingBottom: "30px",
+    paddingTop: '30px',
+    paddingBottom: '30px',
     position: 'absolute',
     top: '0',
     width: '100%',
@@ -12,50 +12,50 @@ function Navbar() {
     backgroundColor: 'rgba(0, 0, 0, 0.5)'
   };
   var logo = {
-    paddingLeft: "2%",
-    fontFamily: "Arial",
-    fontSize: "30px",
-    fontWeight: "bold",
-    textDecoration: "none",
-    color: "#fff"
+    paddingLeft: '2%',
+    fontFamily: 'Arial',
+    fontSize: '30px',
+    fontWeight: 'bold',
+    textDecoration: 'none',
+    color: '#fff'
   };
   var navbarRight = {
-    float: "right",
-    textDecoration: "none",
-    padding: "10px",
-    color: "#fff",
-    fontFamily: "Arial",
-    fontWeight: "900",
+    float: 'right',
+    textDecoration: 'none',
+    padding: '10px',
+    color: '#fff',
+    fontFamily: 'Arial',
+    fontWeight: '900',
     '&:hover': {
-      textDecoration: "underline"
+      textDecoration: 'underline'
     }
   };
 
   var center = {
-    textDecoration: "none",
-    padding: "10px",
-    color: "#fff",
-    fontFamily: "Arial",
-    fontWeight: "900",
+    textDecoration: 'none',
+    padding: '10px',
+    color: '#fff',
+    fontFamily: 'Arial',
+    fontWeight: '900',
     '&:hover': {
-      textDecoration: "underline"
+      textDecoration: 'underline'
     }
   };
   var modelX = {
-    textDecoration: "none",
-    padding: "10px",
-    color: "#fff",
-    fontFamily: "Arial",
-    fontWeight: "900",
+    textDecoration: 'none',
+    padding: '10px',
+    color: '#fff',
+    fontFamily: 'Arial',
+    fontWeight: '900',
     marginLeft: '30vmax',
     marginRight: 'auto',
     '&:hover': {
-      textDecoration: "underline"
+      textDecoration: 'underline'
     }
   };
   var navDiv = {
     marginRight: '5%'
-  }
+  };
   return (
     <div style={navigation}>
       <div className="header">

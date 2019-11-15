@@ -1,10 +1,11 @@
-import React from "react";
-import Gt from "./Gt";
-import Remedy from "./Remedy";
-import NewKombucha from "./NewKombucha";
-import SignIn from "./SignIn";
+import React from 'react';
+import Gt from './Gt';
+import Remedy from './Remedy';
+import NewKombucha from './NewKombucha';
+import SignIn from './SignIn';
 import { Switch, Route } from 'react-router-dom';
-import MainPage from "./MainPage";
+import MainPage from './MainPage';
+import Error404 from './Error404';
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Remedy" component={Remedy} />
         <Route path="/NewKombucha" component={NewKombucha} />
         <Route path="/SignIn" component={SignIn} />
+        <Route component={Error404} />
       </Switch>
     </div>
   );

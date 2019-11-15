@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import cover from '../Assets/Img/cover.png';
 function Home() {
   var back = {
@@ -7,7 +7,7 @@ function Home() {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover'
-  }
+  };
   return (
     <div style={back}></div>
   );

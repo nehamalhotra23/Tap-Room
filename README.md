@@ -17,7 +17,7 @@ _In this application Employees can keep track of inventory of kombucha and Coust
 ## Specs
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| Allow user to view list of kombucha in different brands  |  click on "GT's" in navigation bar | List of kombucha in GT's brand will be displayed |
+| Allow user to view list of kombucha in different brands  |  click on "GT's" in navigation bar |  GT's all flavours of kombucha will be displayed |
 | Employeess can add new kombucha in the list |  click on "Add new kombucha" in navigation bar |A form will be displayed to add new kombucha.|
 | Employess can login and can Create new account | click on "Sign In" in navigation bar  | Sign In Form will be displayed |
 

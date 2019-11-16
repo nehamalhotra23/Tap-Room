@@ -2,7 +2,6 @@ import React from 'react';
 import Login from '../Assets/Img/Login.png';
 import { Link } from 'react-router-dom';
 
-
 function NewEmployee() {
   var image = {
     height: '700px',
@@ -30,14 +29,14 @@ function NewEmployee() {
         <input type="text" placeholder="Last Name" className="form-control" /><br />
         <input type="text" placeholder="Year of joining" className="form-control" /><br />
         <button type="submit" className="btn btn-secondary">Create Account</button><hr />
+        <Link class="navbar-brand" to="SignIn">
+          <button className="btn btn-secondary">SignIn</button>
+        </Link> <hr/>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand" href="#">
             <button className="btn btn-secondary">Home</button>
           </a><hr />
-          <Link class="navbar-brand" to="SignIn">
-            <button className="btn btn-secondary">SignIn</button>
-          </Link>
-        </nav>
+         </nav>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ function Remedy() {
   };
   return (
     <div style={cover}>
-      <Navbar />
+      <Navbar/>
       <div style={space}><RemedyList /></div>
     </div>
   );

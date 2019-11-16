@@ -1,5 +1,6 @@
 import React from 'react';
 import cover from '../Assets/Img/cover.png';
+
 function Home() {
   var back = {
     backgroundImage: `url(${cover})`,
@@ -9,7 +10,7 @@ function Home() {
     backgroundSize: 'cover'
   };
   return (
-    <div style={back}></div>
+    <div style={back}></div>   
   );
 }
 export default Home;

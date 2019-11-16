@@ -29,7 +29,8 @@ function NewKombucha() {
         <input type="text" placeholder="Price" className="form-control" /><br />
         <select className="form-control">
           <option selected>Brand...</option>
-          <option>...</option>
+          <option>GT's</option>
+          <option>Remedy</option>
         </select><br />
         <button type="submit" className="btn btn-secondary">Add</button><hr />
         <nav class="navbar navbar-light bg-light">

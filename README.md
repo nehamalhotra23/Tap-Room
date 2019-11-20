@@ -21,7 +21,7 @@ _In this application Employees can keep track of inventory of kombucha and Coust
 | Employeess can add new kombucha in the list |  click on "Add new kombucha" in navigation bar |A form will be displayed to add new kombucha.|
 | Employess can login and can Create new account | click on "Sign In" in navigation bar  | Sign In Form will be displayed |
 
-
+![Diagram](./graph.png)
 ## Known Bugs
 
 _There are no known bugs._
